@@ -19,12 +19,12 @@ body {
 
 }
 
-header{
+header {
     display: flex;
     background-color: #13131344;
-    
+
 }
-    
+
 .menu {
     position: absolute;
     top: 0;
@@ -42,9 +42,9 @@ header{
     float: left;
     padding: 0 10px;
 }
-    
 
-    
+
+
 .menu .navbar ul li a {
     position: relative;
     font-size: 18px;
@@ -52,21 +52,24 @@ header{
     color: #303030;
     display: flex;
     font-weight: 600;
-    
+
 }
-#menu{
+
+#menu {
     display: none;
 }
-.menu-icono{
+
+.menu-icono {
     width: 25px;
 }
-.menu label{
+
+.menu label {
     cursor: pointer;
     display: none;
 }
 
-/*Agregué este efecto para la navegacion aunque no me convence mucho, quizas se podria mejorar bastante o sacarlo*/
-.menu .navbar ul li a::after{
+
+.menu .navbar ul li a::after {
     content: "";
     position: absolute;
     background-color: #303030;
@@ -76,14 +79,14 @@ header{
     bottom: -10px;
     transition: 0.4s;
 }
-.menu .navbar ul li a:hover{
+
+.menu .navbar ul li a:hover {
     color: black
-    
 }
 
-.menu .navbar ul li a:hover:after{
+.menu .navbar ul li a:hover:after {
     width: 100%;
-}   
+}
 
 
 
@@ -342,154 +345,266 @@ textarea {
     margin-bottom: 50px;
 }
 
-@media(max-width:991px){
+@media(max-width:991px) {
 
-.menu{
-    padding: 30px;
-}
-.menu label{
-    display: initial;
-}
-.menu .navbar{
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #303030;
-    display: none;
-}
-.menu .navbar ul li{
-    width: 100%;
-}
-.menu .navbar ul li a{
-    color: #ffffff;
-}
-.menu .navbar ul li a:hover{
-    color:#bebebe;
-}
+    .menu {
+        padding: 30px;
+    }
 
-#menu:checked ~ .navbar{
-    display: initial;
+    .menu label {
+        display: initial;
+    }
 
-}
-.header-info{
-    flex-direction: column;
-    padding: 30px;
-}
-.header-text{
-    width: 100%;
-    text-align: center;
-    padding: 0;
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #303030;
+        display: none;
+    }
 
-}
-.header-text h1{
-    font-size: 40px;
-    line-height: 50px;
-}
- .header-img{
-    width: 100%;
-    text-align: center;
-    padding-top: 35px;
-}   
- .header-img img{
-    width: 300px;
- }   
-.info{
-    padding: 0;
-    flex-direction: column;
-    align-items: center;
-    
-}
-.info-1, .info-2, .info-3{
-    margin-bottom: 20px;
+    .menu .navbar ul li {
+        width: 100%;
+    }
 
-}
+    .menu .navbar ul li a {
+        color: #ffffff;
+    }
 
-.nosotros{
-    padding: 30px;
-    margin-top: 40px;
-   
+    .menu .navbar ul li a:hover {
+        color: #bebebe;
+    }
 
-}
+    #menu:checked~.navbar {
+        display: initial;
 
-.nosotros-info{
-    padding: 0;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-    
-    
-    
-.nosotros-img{
-    width: 100%;
-    
-}
- .nosotros-img img{
-    width: 300px;
-}   
-   .nosotros-text{
-    width: 100%;
-} 
- .nosotros-text h2{
-    font-size: 40px;
-    line-height: 50px;
-    margin-bottom: 10px;
+    }
 
-}   
+    .header-info {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .header-text {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+
+    }
+
+    .header-text h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .header-img {
+        width: 100%;
+        text-align: center;
+        padding-top: 35px;
+    }
+
+    .header-img img {
+        width: 300px;
+    }
+
+    .info {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .info-1,
+    .info-2,
+    .info-3 {
+        margin-bottom: 20px;
+
+    }
+
+    .nosotros {
+        padding: 30px;
+        margin-top: 40px;
+
+
+    }
+
+    .nosotros-info {
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
 
 
 
-.products{
-    padding: 30px;
-    text-align: center;
-}
-.products h2{
-    font-size: 40px;
-}
-.products p{
-    padding: 0;
-    margin-bottom: 40px;
-    
-}
-.product-info{
-    grid-template-columns: repeat(1,1fr);
+    .nosotros-img {
+        width: 100%;
 
-}
-.product p{
-    padding: 30px;
-    
-}
-.footer{
-    padding: 30px;
-}
-.footer-links{
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-.socials{
-    margin-bottom: 25px;
-    
-}
-       
-.download img{
-    display: none;
-}
-.footer-links h3, .footer-links p{
-    display: none;
-}
-.socials img{
-    height: 50px;
-}
+    }
 
-}
+    .nosotros-img img {
+        width: 300px;
+    }
+
+    .nosotros-text {
+        width: 100%;
+    }
+
+    .nosotros-text h2 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 10px;
+
+    }
 
 
 
+    .products {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .products h2 {
+        font-size: 40px;
+    }
+
+    .products p {
+        padding: 0;
+        margin-bottom: 40px;
+
+    }
+
+    .product-info {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
+
+    .product p {
+        padding: 30px;
+
+    }
+
+    .footer {
+        padding: 30px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .socials {
+        margin-bottom: 25px;
+
+    }
+
+    .download img {
+        display: none;
+    }
+
+    .footer-links h3,
+    .footer-links p {
+        display: none;
+    }
+
+    .socials img {
+        height: 50px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .header-info {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+    .header-text {
+        margin-top: 20px;
+    }
+
+    .header-text h1 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .header-text p {
+        font-size: 14px;
+        margin-bottom: 25px;
+    }
+
+    .info {
+        padding: 50px;
+    }
+
+    .info-1,
+    .info-2,
+    .info-3 {
+        padding: 10px 15px;
+    }
+
+    .info h3 {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+
+    .info p {
+        font-size: 14px;
+    }
+
+    .products h1 {
+        font-size: 30px;
+    }
+
+    .products p {
+        font-size: 14px;
+        padding: 0 15px;
+        margin-bottom: 40px;
+    }
+
+    .product p {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 50px 0;
+    }
+
+    .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socials img {
+        height: 40px;
+        margin-right: 10px;
+    }
+
+    form {
+        width: 300px;
+
+
+    }
+
+
+    .form-body h2 {
+        color: #292828;
+        font-size: 30px;
+        margin-bottom: 20px;
+
+    }
+
+    label {
+        display: none;
+    }
 
 
 
 
 
 
+}

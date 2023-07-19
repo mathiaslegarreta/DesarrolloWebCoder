@@ -467,7 +467,7 @@ textarea {
         text-align: center;
     }
 
-    .products h2 {
+    .products h1 {
         font-size: 40px;
     }
 
@@ -547,7 +547,9 @@ textarea {
     .info-3 {
         padding: 10px 15px;
     }
+    
 
+   
     .info h3 {
         font-size: 16px;
         margin-bottom: 8px;
@@ -559,6 +561,8 @@ textarea {
 
     .products h1 {
         font-size: 30px;
+        margin-top: 15px;
+
     }
 
     .products p {

@@ -572,10 +572,9 @@ textarea {
         margin-bottom: 40px;
     }
 
-    .product p {
-        padding: 15px;
-        font-size: 14px;
-    }
+   .products img{
+    width: 300px;
+   }
 
     .footer {
         padding: 50px 0;

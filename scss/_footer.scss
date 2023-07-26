@@ -7,12 +7,12 @@
 .footer-links {
     display: flex;
     justify-content: space-between;
-    color: #303030;
+    color: $title-color;
     margin-bottom: 20px;
 
     h3 {
         font-size: 30px;
-        color: #303030;
+        color: $title-color;
         margin-bottom: 8px;
     }
 }
@@ -28,10 +28,10 @@
     display: flex;
     margin-right: 50px;
     align-items: center;
-    
+
 
     a img {
-       
+
         height: 50px;
     }
 
@@ -41,5 +41,3 @@
 .google-play {
     margin-right: 20px;
 }
-
-

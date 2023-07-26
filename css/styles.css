@@ -102,9 +102,9 @@ header {
   justify-content: space-between;
   margin-top: 60px;
 }
-.info .info-1,
-.info .info-2,
-.info .info-3 {
+.info .info-horario,
+.info .info-location,
+.info .info-contacto {
   width: 300px;
   padding: 15px 25px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
@@ -309,7 +309,7 @@ textarea {
   margin-right: 20px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 992px) {
   .menu {
     padding: 30px;
   }
@@ -362,9 +362,9 @@ textarea {
     flex-direction: column;
     align-items: center;
   }
-  .info-1,
-  .info-2,
-  .info-3 {
+  .info-horario,
+  .info-location,
+  .info-contacto {
     margin-bottom: 20px;
   }
   .nosotros {
@@ -432,7 +432,7 @@ textarea {
     height: 50px;
   }
 }
-@media (max-width: 400px) {
+@media (max-width: 576px) {
   .header-info {
     flex-direction: column;
     align-items: center;

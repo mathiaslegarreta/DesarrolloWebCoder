@@ -1,5 +1,5 @@
 
-@media(max-width:991px) {
+@media(max-width:992px) {
 
     .menu {
         padding: 30px;
@@ -72,9 +72,9 @@
 
     }
 
-    .info-1,
-    .info-2,
-    .info-3 {
+    .info-horario,
+    .info-location,
+    .info-contacto {
         margin-bottom: 20px;
 
     }
@@ -176,7 +176,7 @@
 
 }
 
-@media (max-width: 400px) {
+@media (max-width: 576px) {
     .header-info {
         flex-direction: column;
         align-items: center;

@@ -13,7 +13,7 @@
 
     img {
         width: 650px;
-        border-radius: 25px;
+        border-radius: $b-radius;
     }
 }
 
@@ -24,13 +24,13 @@
 
     h2 {
         font-size: 45px;
-        color: #303030;
+        color: $title-color;
         margin-bottom: 30px;
     }
 
     p {
         font-size: 18px;
-        color: #545454;
+        color: $parrafo-color;
         margin-bottom: 50px;
     }
 }

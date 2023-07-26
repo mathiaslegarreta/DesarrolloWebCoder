@@ -6,7 +6,7 @@
     justify-content: center;
 
     h2 {
-        color: #292828;
+        color: $title-color;
         font-size: 40px;
     }
 
@@ -40,10 +40,10 @@ form {
 input,
 textarea {
     padding: 16px 25px;
-    border-radius: 25px;
+    border-radius: $b-radius;
     margin-bottom: 18px;
     border: 2px solid #e7e8e7;
-    color: #292828;
+    color: $secondary-color;
     outline: none;
 }
 
@@ -54,7 +54,7 @@ textarea {
     text-align: center;
 
     a {
-        color: #292828;
+        color: $secondary-color;
         font-size: 12px;
         font-weight: 600px;
         font-style: italic;

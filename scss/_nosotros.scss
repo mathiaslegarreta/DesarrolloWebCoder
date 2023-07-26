@@ -1,0 +1,37 @@
+.nosotros {
+    position: relative;
+}
+
+.nosotros-info {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+}
+
+.nosotros-img {
+    width: 50%;
+
+    img {
+        width: 650px;
+        border-radius: 25px;
+    }
+}
+
+
+
+.nosotros-text {
+    width: 50%;
+
+    h2 {
+        font-size: 45px;
+        color: #303030;
+        margin-bottom: 30px;
+    }
+
+    p {
+        font-size: 18px;
+        color: #545454;
+        margin-bottom: 50px;
+    }
+}
+

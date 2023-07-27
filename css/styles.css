@@ -338,6 +338,9 @@ textarea {
   .menu .navbar ul li a:hover {
     color: #bebebe;
   }
+  .menu .navbar ul li a::after {
+    display: none;
+  }
   #menu:checked ~ .navbar {
     display: initial;
   }
@@ -464,9 +467,9 @@ textarea {
   .info p {
     font-size: 14px;
   }
-  .info-1,
-  .info-2,
-  .info-3 {
+  .info-horario,
+  .info-location,
+  .info-contacto {
     padding: 10px 15px;
   }
   .products h1 {

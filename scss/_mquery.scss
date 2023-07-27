@@ -25,6 +25,9 @@
                     &:hover {
                         color: #bebebe;
                     }
+                    &::after {
+                        display: none;
+                    }
                 }
             }
         }
@@ -212,9 +215,9 @@
         }
     }
 
-    .info-1,
-    .info-2,
-    .info-3 {
+    .info-horario,
+    .info-location,
+    .info-contacto {
         padding: 10px 15px;
     }
 

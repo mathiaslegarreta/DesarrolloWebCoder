@@ -1,0 +1,21 @@
+%box-style {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: $b-radius;
+  }
+  
+%button-style {
+        display: inline-block;
+        background-color: #ff9f0d;
+        padding: 13px 30px;
+        border-radius: 25px;
+        color: #ffffff;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+        margin-bottom: 15px;
+      }
+      
+      .btn-1:hover {
+        color: #ee9003;
+      }
+      
+  
+  

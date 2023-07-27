@@ -1,14 +1,4 @@
 .btn-1 {
-    display: inline-block;
-    background-color: $bg-btn-color;
-    padding: 13px 30px;
-    border-radius: $b-radius;
-    color: #ffffff;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
-    margin-bottom: 15px;
-
-    &:hover {
-        color: #ee9003;
-    }
-}
-
+    @extend %button-style;
+  }
+  

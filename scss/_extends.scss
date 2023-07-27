@@ -5,7 +5,7 @@
   
 %button-style {
         display: inline-block;
-        background-color: #ff9f0d;
+        background-color: $bg-btn-color;
         padding: 13px 30px;
         border-radius: 25px;
         color: #ffffff;
@@ -13,9 +13,6 @@
         margin-bottom: 15px;
       }
       
-      .btn-1:hover {
-        color: #ee9003;
-      }
       
   
   
